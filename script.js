@@ -23,12 +23,12 @@ const getSum = () => {
     newRow.appendChild(cell1);
     newRow.appendChild(cell2);
 
-    let existingTotalRow = document.querySelector('#totalRow');
+    let existingTotalRow = document.querySelector('#ans');
     if(existingTotalRow){
         existingTotalRow.remove();
     }
 
-    newRow.id = "totalRow";
+    newRow.id = "ans";
     table.appendChild(newRow);
 
 };
